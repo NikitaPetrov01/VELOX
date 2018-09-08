@@ -45,7 +45,7 @@ text-decoration: none;
 .header--social{
     padding-left: 700px;
 }
-.header--social__icon{
+.header__social__icon{
     color: gray;
     transition: .5s;
     padding: 5px;
