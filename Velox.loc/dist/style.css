@@ -51,16 +51,16 @@ padding-top: 2px;
 .header--links{
 
 }
-.header--social{
+.header__social{
     padding-left: 700px;
 }
-.header__social__icon{
+.social__icon{
     color: gray;
     transition: .5s;
     padding: 5px;
 
 }
-.header--social__icon:hover{
+.social__icon:hover{
     zoom: 1.2;
 }
 .header__link{
@@ -98,10 +98,10 @@ padding-top: 2px;
     text-transform: uppercase;
     
 }
-.header--contacts{
+.header__contacts{
     padding: 30px;
 }
-.nav__logo__wrapper{
+.nav__logo--wrapper{
     align-items: center;
     align-content: center;
     /* padding-bottom: 10px; */
@@ -120,4 +120,5 @@ padding-top: 2px;
 
 .image{
     margin: 0;
+    overflow:hidden;
 }
