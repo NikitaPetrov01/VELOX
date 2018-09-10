@@ -1,13 +1,8 @@
-@font-face {
-    font-family: 'Proxima Nova Thin';
-    src: url('ProximaNovaT-Thin.eot');
-    src: url('ProximaNovaT-Thin.eot?#iefix') format('embedded-opentype'),
-    url('ProximaNovaT-Thin.woff') format('woff'),
-    url('ProximaNovaT-Thin.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-    }
+html {
 
+    
+
+}
 .header{
     display:flex;
     width: 100%;
@@ -101,15 +96,11 @@ padding-top: 2px;
 .header__contacts{
     padding: 30px;
 }
-.nav__logo--wrapper{
+.nav__logo{
     align-items: center;
     align-content: center;
-    /* padding-bottom: 10px; */
     padding-left: 151px;
-    
-    
-    
-    
+
 }
 .nav__logo{
     display: block;
