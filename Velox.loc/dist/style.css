@@ -1,5 +1,6 @@
 html {
 
+
     
 
 }
@@ -28,7 +29,7 @@ a {
 
 .header__link{
     color: black;
-font-family: 'Proxima Nova Thin';
+font-family: 'ProximaNova-Thin';
 font-size: 12px;
 font-weight: 300;
 line-height: 24px;
