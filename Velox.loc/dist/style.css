@@ -69,6 +69,8 @@ padding-top: 2px;
     align-items: center;
     display:flex;
     flex-direction: row;
+    /* margin: 0 auto; */
+    justify-content: space-between;
    
   
 
@@ -108,6 +110,7 @@ padding-top: 2px;
     /* padding-left: 151px; */
     width: 200px;
     margin: 0;
+    display: flex;
     
 }  
 .image{
