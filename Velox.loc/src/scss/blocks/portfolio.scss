@@ -1,0 +1,38 @@
+.portfolio__header{
+    padding-top: 60px;
+    margin: 0 auto;
+    text-align: center;
+    
+     h2{
+        font-family: 'ProximaNova';
+        font-weight: 400;
+        font-size: 24px;
+
+     }
+     p{
+        font-family: 'ProximaNova';
+        font-size: 14px;
+        font-weight: 300;
+     }
+}
+.portfolio__item{
+    background-color: white;
+    border: 1px solid #e9e9e9;
+    box-shadow: 0 0 0 black;
+    text-align: center;
+    h3{
+        font-family: 'ProximaNova';
+        font-size: 14px;
+        font-weight: 600;
+        
+    }
+    p{
+        font-family: 'ProximaNova';
+        font-size: 12px;
+        font-weight: 300;
+    }
+    img{
+        max-width: 100%;
+    }
+}
+

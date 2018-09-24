@@ -189,6 +189,8 @@ text-decoration: none;
     background-image: url(../src/psd/Velox-assets/One.png);
     background-position: bottom;
     text-align: center;
+    border-bottom: #bdbdbd 2px solid;
+
 
 }
 .tabs-block h2{
@@ -207,3 +209,14 @@ text-decoration: none;
 .text-block{
     padding-top: 60px;
 }
+.tabs-block hr{
+    width: 100%;
+    height: 2px;
+    color:#bdbdbd;    
+}
+.dgdg{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 35px;
+}
+@import "./blocks/portfolio.scss"
