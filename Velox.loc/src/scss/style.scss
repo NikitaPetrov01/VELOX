@@ -214,9 +214,14 @@ text-decoration: none;
     height: 2px;
     color:#bdbdbd;    
 }
-.dgdg{
-    display: flex;
-    justify-content: space-between;
-    padding: 0 35px;
-}
-@import "./blocks/portfolio.scss"
+// .dgdg{
+//     display: flex;
+//     justify-content: space-between;
+//     padding: 0 35px;
+// }
+
+
+@import "./blocks/portfolio.scss";
+@import "./blocks/latest.scss";
+
+

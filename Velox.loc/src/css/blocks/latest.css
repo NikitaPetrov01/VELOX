@@ -1,0 +1,13 @@
+.latest__header {
+  padding-top: 60px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #fafafa; }
+  .latest__header h2 {
+    font-family: 'ProximaNova';
+    font-weight: 400;
+    font-size: 24px; }
+  .latest__header p {
+    font-family: 'ProximaNova';
+    font-size: 14px;
+    font-weight: 300; }

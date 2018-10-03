@@ -212,15 +212,6 @@ a {
   height: 2px;
   color: #bdbdbd; }
 
-.dgdg {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  -ms-flex-pack: justify;
-  justify-content: space-between;
-  padding: 0 35px; }
-
 .portfolio__header {
   padding-top: 60px;
   margin: 0 auto;
@@ -235,18 +226,90 @@ a {
     font-weight: 300; }
 
 .portfolio__item {
+  height: 300px;
   background-color: white;
   border: 1px solid #e9e9e9;
   -webkit-box-shadow: 0 0 0 black;
   box-shadow: 0 0 0 black;
-  text-align: center; }
+  text-align: center;
+  margin-bottom: 90px; }
   .portfolio__item h3 {
     font-family: 'ProximaNova';
     font-size: 14px;
-    font-weight: 600; }
+    font-weight: 600;
+    padding: 0; }
   .portfolio__item p {
     font-family: 'ProximaNova';
     font-size: 12px;
-    font-weight: 300; }
+    font-weight: 300;
+    padding-bottom: 30px;
+    color: #c6c7c9; }
   .portfolio__item img {
-    max-width: 100%; }
+    max-width: 100%;
+    margin: 0; }
+
+.latest {
+  background-color: #fafafa; }
+
+.latest__header {
+  padding-top: 60px;
+  margin: 0 auto;
+  text-align: center; }
+  .latest__header h2 {
+    font-family: 'ProximaNova';
+    font-weight: 400;
+    font-size: 24px; }
+  .latest__header p {
+    font-family: 'ProximaNova';
+    font-size: 12px;
+    font-weight: 300; }
+
+.squareangle {
+  width: 320px;
+  height: 225px;
+  background-color: #1275b9; }
+
+.squareangle h1 {
+  font-family: 'ProximaNova';
+  font-size: 72px;
+  font-weight: 400;
+  color: white;
+  padding-top: 40px;
+  padding-left: 30px;
+  width: auto;
+  height: 30px;
+  padding-bottom: 55px; }
+
+.squareangle p {
+  font-family: 'ProximaNova';
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  color: white;
+  padding-left: 30px; }
+
+.latest__text h2 {
+  color: black;
+  font-family: 'ProximaNova';
+  font-size: 14px;
+  font-weight: 600;
+  padding-bottom: 5px; }
+
+.latest__text p {
+  color: #9c9c9c;
+  font-family: 'ProximaNova';
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 24px; }
+
+.latest__button {
+  height: 30px;
+  width: 80px;
+  color: white;
+  font-family: 'ProximaNova';
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 24px;
+  background-color: #1275b9;
+  border: 0;
+  border-radius: 50%; }
