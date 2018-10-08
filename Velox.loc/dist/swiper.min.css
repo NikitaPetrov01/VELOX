@@ -4,3 +4,15 @@
 .swiper-button-next{
     z-index: 20;
 } */
+.swiper-container{
+    /* width: 320px;
+    height: 225px; */
+    
+}
+.swiper-wrapper{
+    width: 320px;
+    height: 225px;
+    padding-top: 20px;
+    
+    
+}
