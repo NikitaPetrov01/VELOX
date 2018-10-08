@@ -7,24 +7,11 @@ html {
 }
 .header{
     display:flex;
-    /* width: 100%; */
     height: 40px;
     flex-direction: row;
     border-bottom: 1px solid #ededed;
     align-items: center;
-    justify-content: space-between;
-    
-    
-
-    
-    
-}
-.header:first-child{
-    /* padding-left: 105px; */
-    
-}
-.header:nth-child(2){
-    /* padding-left: 30px; */
+    justify-content: space-between;   
 }
 a { 
     text-decoration: none; 
@@ -36,7 +23,6 @@ a {
     font-size: 12px;
     font-weight: 300;
     line-height: 24px;
-    /* padding-left: 30px; */
     text-decoration: none;
     padding-top: 2px;
     padding-right: 20px;
@@ -45,19 +31,9 @@ a {
 
 
 }
-.header__icon{
-    /* padding-right: 10px; */
-}
-.header--links{
-
-}
-.social{
-    /* padding-left: 700px; */
-}
 .social__icon{
     color: gray;
     transition: .5s;
-    /* padding: 5px; */
     padding-right: 5px;
 
 }
@@ -75,20 +51,13 @@ text-decoration: none;
     display:flex;
     flex-direction: row;
     justify-content: space-between;
-    /* margin: 0 auto; */
-    
-   
-  
-
 }
 .col{
     display: flex;
 }
-
  .nav__items{
-     height: 100%;
-    display:flex;
-    
+    height: 100%;
+    display:flex;   
     flex-direction: row;
     text-decoration: none;
     list-style: none;
@@ -97,7 +66,6 @@ text-decoration: none;
     align-items: center;
     margin: 0;
     padding-top: 5px;
-    /* padding-left: 200px; */
     justify-content: space-between;
     
     
@@ -111,9 +79,6 @@ text-decoration: none;
     text-transform: uppercase;
     
 }
-.header__contacts{
-    /* padding: 30px; */
-}
 .nav__logo{
     align-items: center;
     align-content: center;
@@ -126,6 +91,10 @@ text-decoration: none;
 .image{
     margin: 0;
     overflow:hidden;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
 }
 .icon-block{
     
@@ -137,11 +106,6 @@ text-decoration: none;
 
 .icon-block__svg{
     max-width: 65px;  
-    /* position: relative; */
-    /* left: 50%;
-    -webkit-transform: translateX(-50%);
-    -ms-transform: translateX(-50%);
-    transform: translateX(-50%); */
     position: relative;
     top: 25%;
     
@@ -214,13 +178,6 @@ text-decoration: none;
     height: 2px;
     color:#bdbdbd;    
 }
-// .dgdg{
-//     display: flex;
-//     justify-content: space-between;
-//     padding: 0 35px;
-// }
-
-
 @import "./blocks/portfolio.scss";
 @import "./blocks/latest.scss";
 
