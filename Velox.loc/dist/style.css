@@ -298,4 +298,11 @@ a {
 .latest__player {
   width: 320px;
   height: 225px;
-  display: block; }
+  display: block;
+  margin-top: 20px; }
+
+.latest__item {
+  margin-bottom: 60px; }
+
+.sponsors {
+  height: 205px; }
