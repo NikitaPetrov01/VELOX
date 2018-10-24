@@ -5,14 +5,20 @@ html {
     
 
 }
+// p {padding: 0;}
 .header{
     display:flex;
     height: 40px;
     flex-direction: row;
     border-bottom: 1px solid #ededed;
     align-items: center;
-    justify-content: space-between;   
+    justify-content: space-between; 
+    // &__contacts{
+    //     display: flex;
+    //     flex-direction: row;
+    // }
 }
+
 a { 
     text-decoration: none; 
    } 
@@ -26,6 +32,14 @@ a {
     text-decoration: none;
     padding-top: 2px;
     padding-right: 20px;
+    // display: flex;
+    // flex-direction: row;
+    // span{
+    //     font-weight: 300;
+    // }
+    // p{
+    //     margin: 0;
+    // }
 
 
 
@@ -34,7 +48,7 @@ a {
 .social__icon{
     color: gray;
     transition: .5s;
-    padding-right: 5px;
+    padding-right: 20px;
 
 }
 .social__icon:hover{
@@ -98,7 +112,7 @@ text-decoration: none;
 }
 .icon-block{
     
-    height: 340px;
+    min-height: 340px;
     align-content: center;
     
     
@@ -111,7 +125,7 @@ text-decoration: none;
     
     
 }
-.icon--wrapper{
+.icon__wrapper{
     border: 1px solid #1275b9;
     border-radius: 50%;
     height: 65px;
@@ -146,7 +160,7 @@ text-decoration: none;
     background: #1275b9; 
 }
 .svg--settings{
- top: 28%;
+ top: 30%;
 }
 .tabs-block{
     height: 580px;
@@ -181,4 +195,5 @@ text-decoration: none;
 @import "./blocks/portfolio.scss";
 @import "./blocks/latest.scss";
 @import "./blocks/sponsors.scss";
+@import "./blocks/footer.scss";
 

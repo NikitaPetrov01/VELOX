@@ -13,11 +13,11 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="header">
+    <div class="header" id="top">
       <div class="container">
         <div class="row">
           <div class="col d-flex justify-content-between">
-            <div class="header__contacts"><a class="header__link" href="mailto:emailme@velox.com"><i class="far fa-envelope header__icon">emailme@velox.com				</i></a><a class="header__link" href="tel:+380508687899"><i class="fas fa-mobile-alt header__icon">+380508687899				</i></a></div>
+            <div class="header__contacts"><a class="header__link" href="mailto:emailme@velox.com"><i class="far fa-envelope header__icon">emailme@velox.com				</i></a><a class="header__link" href="tel:+380508687899"><i class="fas fa-mobile-alt header__icon">+380508687899			</i></a></div>
             <div class="social"><a href="http://facebook.com"><i class="fab fa-facebook-f social__icon"></i></a><a href="http://twitter.com"><i class="fab fa-twitter social__icon"></i></a><a href="http://google.com"><i class="fab fa-google-plus-g social__icon"></i></a></div>
           </div>
         </div>
@@ -29,14 +29,13 @@
           <div class="col">
             <div class="nav__logo"><a href="javascript:void(0)"><img src="./img/velox.png" alt=""/></a></div>
             <ul class="nav__items">
-              <li></li>
               <li><a href="javascript:void(0)">HOME</a></li>
-              <li><a href="javascript:void(0)">FEATURES</a></li>
-              <li><a href="javascript:void(0)">PAGES</a></li>
+              <li><a href="#features">FEATURES</a></li>
+              <li><a href="#pages">PAGES</a></li>
               <li><a href="javascript:void(0)">ABOUT</a></li>
-              <li><a href="javascript:void(0)">PORTFOLIO</a></li>
-              <li><a href="javascript:void(0)">BLOG</a></li>
-              <li><a href="javascript:void(0)">CONTACT</a></li>
+              <li><a href="#portfolio">PORTFOLIO</a></li>
+              <li><a href="#blog">BLOG</a></li>
+              <li><a href="#contact">CONTACT</a></li>
               <li><a href="javascript:void(0)"><i class="fas fa-shopping-cart nav__icon"></i></a></li>
               <li><a href="javascript:void(0)"><i class="fas fa-search nav__icon"></i></a></li>
             </ul>
@@ -45,26 +44,26 @@
       </div>
     </div>
     <div class="image"><img src="./img/Layer-58.png" alt=""/></div>
-    <div class="icon-block">
+    <div class="icon-block" id="features">
       <div class="container">
         <div class="row">
           <div class="col-lg-4">
             <div class="icon-block__article">
-              <div class="icon--wrapper"><img class="icon-block__svg" src="../src/psd/Velox-assets/Tablet.svg" alt=""/></div>
+              <div class="icon__wrapper"><img class="icon-block__svg" src="../src/psd/Velox-assets/Tablet.svg" alt=""/></div>
               <h3>RESPONSIVE DESIGN</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quisquam saepe nemo unde corrupti reprehenderit?</p>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="icon-block__article">
-              <div class="icon--wrapper bg-blue"><img class="icon-block__svg svg--settings" src="../src/psd/Velox-assets/Dashboard.svg" alt=""/></div>
+              <div class="icon__wrapper"><img class="icon-block__svg svg--settings" src="../src/psd/Velox-assets/Dashboard.svg" alt=""/></div>
               <h3>EASY CUSTOMIZE</h3>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quisquam saepe nemo unde corrupti reprehenderit?| </p>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quisquam saepe nemo unde corrupti reprehenderit? </p>
             </div>
           </div>
           <div class="col-lg-4">
             <div class="icon-block__article">
-              <div class="icon--wrapper bg-blue"><img class="icon-block__svg svg--settings" src="../src/psd/Velox-assets/Settings1.svg" alt=""/></div>
+              <div class="icon__wrapper"><img class="icon-block__svg svg--settings" src="../src/psd/Velox-assets/Settings1.svg" alt=""/></div>
               <h3>FAST AND RELIABLE</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quisquam saepe nemo unde corrupti reprehenderit?</p>
             </div>
@@ -72,7 +71,7 @@
         </div>
       </div>
     </div>
-    <div class="tabs-block">
+    <div class="tabs-block" id="pages">
       <div class="container">
         <div class="text-block">
           <h2>Why Choose Us</h2>
@@ -80,7 +79,7 @@
         </div>
       </div>
     </div>
-    <div class="portfolio">
+    <div class="portfolio" id="portfolio">
       <div class="container">
         <div class="portfolio__header">
           <h2>Portfolio</h2>
@@ -128,7 +127,7 @@
         </div>
       </div>
     </div>
-    <div class="latest">
+    <div class="latest" id="blog">
       <div class="container">
         <div class="latest__header">
           <h2>Latest from Blog</h2>
@@ -178,7 +177,86 @@
     </div>
     <div class="sponsors">
       <div class="container">
-        <div class="row"><a class="sponsor__logo" href="http://"><img src="./img/tak.png" alt=""/></a></div>
+        <div class="row">
+          <div class="sponsors__items">  <a class="sponsor__logo" href="javascript:void(0)"><img src="./img/tak.png" alt=""/></a><a class="sponsor__logo" href="javascript:void(0)"><img src="./img/databerry.png" alt=""/></a><a class="sponsor__logo" href="javascript:void(0)"><img src="./img/orange.png" alt=""/></a><a class="sponsor__logo" href="javascript:void(0)"><img src="./img/ata.png" alt=""/></a></div>
+        </div>
+      </div>
+    </div>
+    <div class="buy-now">
+      <div class="container">
+        <div class="row">
+          <div class="buy-now__wrapper">
+            <div class="buy-now__text">
+              <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Repellat laudantium libero nam necessitatibus sit provident! </p>
+            </div>
+            <input class="buy-now__button" type="button" value="Buy Now"/>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="footer__column"><img class="footer__logo" src="../src/psd/Velox-assets/velox-footer.png" alt=""/>
+              <p class="column__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque deserunt velit laudantium, quae quas maxime! Enim ex quis et. Ut dolorem debitis at quis vero sint fugiat aut recusandae necessitatibus!</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer__column">
+              <h2 class="footer__heading">Popular Posts</h2>
+              <div class="post__item">
+                <p class="post__heading">Lorem ipsum dolor sit amet. </p>
+                <p class="post__date">JULY 30, 2014</p>
+              </div>
+              <div class="post__item">
+                <p class="post__heading">Lorem ipsum dolor sit amet. </p>
+                <p class="post__date">JULY 30, 2014</p>
+              </div>
+              <div class="post__item">
+                <p class="post__heading">Lorem ipsum dolor sit amet. </p>
+                <p class="post__date">JULY 30, 2014</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer__column">
+              <h2 class="footer__heading">Twitter Feeds</h2>
+              <div class="twitter__post"><i class="fab fa-twitter twitter__logo"></i>
+                <p class="twitter__text"><span>@Shravan</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, doloremque?</p>
+              </div>
+              <p class="twitter__date">1 minute ago</p>
+              <div class="twitter__post"><i class="fab fa-twitter twitter__logo"></i>
+                <p class="twitter__text"><span>@Shravan</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam, doloremque?</p>
+              </div>
+              <p class="twitter__date">1 minute ago</p>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="footer__column">
+              <h2 class="footer__heading">Contact Us</h2>
+              <div class="footer__contacts">
+                <div class="contacts__item"><i class="fas fa-map-marker-alt contacts__logo"></i>
+                  <p class="contacts__text">92 Albacore Crescent Breadalbane NSW 2581     </p>
+                </div>
+                <div class="contacts__item"><i class="fas fa-mobile contacts__logo"></i><a class="contacts__text" href="tel:+380508687899"> 
+                    <p>+380508687899</p></a></div>
+                <div class="contacts__item"><i class="far fa-envelope contacts__logo"></i><a class="contacts__text" href="mailto:emailme@velox.com">
+                    <p>emailme@velox.com</p></a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="copyright">
+      <div class="container">
+        <div class="row">
+          <div class="col d-flex justify-content-between">
+            <p>Copyright 2014 - Velox. All Right Reserved</p><a href="#top">
+              <p>Back To Top ^</p></a>
+          </div>
+        </div>
       </div>
     </div><script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
