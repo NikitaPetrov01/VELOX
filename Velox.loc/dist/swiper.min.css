@@ -1,9 +1,7 @@
-/* .swiper-button-prev{
-    z-index: 20;
-}
+
 .swiper-button-next{
-    z-index: 20;
-} */
+    padding-right: 103px;
+}
 .swiper-container{
     /* width: 320px;
     height: 225px; */
