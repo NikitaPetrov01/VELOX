@@ -3566,6 +3566,10 @@ tbody.collapse.in {
   color: #333;
   white-space: nowrap;
 }
+.col-xs-12{
+  padding-left: 15px;
+  padding-right: 15px;
+}
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   color: #262626;

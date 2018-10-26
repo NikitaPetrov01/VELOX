@@ -1,19 +1,32 @@
-.nav
+.nav#menu
 	.container
 		.row
-			.col
-				.nav__logo
+			.col-lg-3.col-xs-12
+				.nav__logo.hidden-xs
 					a(href='javascript:void(0)')
 						img(src='./img/velox.png', alt='')
-				ul.nav__items
+				.nav--mobile.hidden-lg.hidden-md.visible-xs
+					.dropdown
+						button#dropdownMenuButton.btn.btn-secondary.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+							| MENU
+						.dropdown-menu(aria-labelledby='dropdownMenuButton')
+							a.dropdown-item(href='javascript:void(0)') HOME							
+							a.dropdown-item(href='#features') FEATURES						
+							a.dropdown-item(href='#pages') PAGES						
+							//- a.dropdown-item(href='javascript:void(0)') ABOUT						
+							a.dropdown-item(href='#portfolio') PORTFOLIO						
+							a.dropdown-item(href='#blog') BLOG						
+							a.dropdown-item(href='#contact') CONTACT
+			.col-lg-9.col-xs-12
+				ul.nav__items.d-flex.justify-content-between.hidden-xs
 					li
 						a(href='javascript:void(0)') HOME
 					li
 						a(href='#features') FEATURES
 					li
 						a(href='#pages') PAGES
-					li
-						a(href='javascript:void(0)') ABOUT
+					//- li
+					//- 	a(href='javascript:void(0)') ABOUT
 					li
 						a(href='#portfolio') PORTFOLIO
 					li
@@ -26,3 +39,9 @@
 					li
 						a(href='javascript:void(0)')
 							i.fas.fa-search.nav__icon
+				
+
+
+
+
+			

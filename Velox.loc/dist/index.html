@@ -17,22 +17,34 @@
       <div class="container">
         <div class="row">
           <div class="col d-flex justify-content-between">
-            <div class="header__contacts"><a class="header__link" href="mailto:emailme@velox.com"><i class="far fa-envelope header__icon">emailme@velox.com				</i></a><a class="header__link" href="tel:+380508687899"><i class="fas fa-mobile-alt header__icon">+380508687899			</i></a></div>
+            <div class="header__contacts">
+              <div class="contacts__item"><i class="fas fa-mobile contacts__logo"></i><a class="contacts__text" href="tel:+380508687899"> 
+                  <p>+380508687899</p></a></div>
+              <div class="contacts__item"><i class="far fa-envelope contacts__logo"></i><a class="contacts__text" href="mailto:emailme@velox.com">
+                  <p>emailme@velox.com		</p></a></div>
+            </div>
             <div class="social"><a href="http://facebook.com"><i class="fab fa-facebook-f social__icon"></i></a><a href="http://twitter.com"><i class="fab fa-twitter social__icon"></i></a><a href="http://google.com"><i class="fab fa-google-plus-g social__icon"></i></a></div>
           </div>
         </div>
       </div>
     </div>
-    <div class="nav">
+    <div class="nav" id="menu">
       <div class="container">
         <div class="row">
-          <div class="col">
-            <div class="nav__logo"><a href="javascript:void(0)"><img src="./img/velox.png" alt=""/></a></div>
-            <ul class="nav__items">
+          <div class="col-lg-3 col-xs-12">
+            <div class="nav__logo hidden-xs"><a href="javascript:void(0)"><img src="./img/velox.png" alt=""/></a></div>
+            <div class="nav--mobile hidden-lg hidden-md visible-xs">
+              <div class="dropdown">
+                <button class="btn btn-secondary dropdown-toggle" id="dropdownMenuButton" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">MENU</button>
+                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="javascript:void(0)">HOME							</a><a class="dropdown-item" href="#features">FEATURES						</a><a class="dropdown-item" href="#pages">PAGES						</a><a class="dropdown-item" href="#portfolio">PORTFOLIO						</a><a class="dropdown-item" href="#blog">BLOG						</a><a class="dropdown-item" href="#contact">CONTACT</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-9 col-xs-12">
+            <ul class="nav__items d-flex justify-content-between hidden-xs">
               <li><a href="javascript:void(0)">HOME</a></li>
               <li><a href="#features">FEATURES</a></li>
               <li><a href="#pages">PAGES</a></li>
-              <li><a href="javascript:void(0)">ABOUT</a></li>
               <li><a href="#portfolio">PORTFOLIO</a></li>
               <li><a href="#blog">BLOG</a></li>
               <li><a href="#contact">CONTACT</a></li>
@@ -47,21 +59,21 @@
     <div class="icon-block" id="features">
       <div class="container">
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-xs-12">
             <div class="icon-block__article">
               <div class="icon__wrapper"><img class="icon-block__svg" src="../src/psd/Velox-assets/Tablet.svg" alt=""/></div>
               <h3>RESPONSIVE DESIGN</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quisquam saepe nemo unde corrupti reprehenderit?</p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-xs-12">
             <div class="icon-block__article">
               <div class="icon__wrapper"><img class="icon-block__svg svg--settings" src="../src/psd/Velox-assets/Dashboard.svg" alt=""/></div>
               <h3>EASY CUSTOMIZE</h3>
               <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quisquam saepe nemo unde corrupti reprehenderit? </p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-xs-12">
             <div class="icon-block__article">
               <div class="icon__wrapper"><img class="icon-block__svg svg--settings" src="../src/psd/Velox-assets/Settings1.svg" alt=""/></div>
               <h3>FAST AND RELIABLE</h3>
@@ -86,19 +98,19 @@
           <p>Check out some of our latest work</p>
         </div>
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-xs-12">
             <div class="portfolio__item"><img src="./img/Layer-51.png" alt=""/>
               <h3>HORSE</h3>
               <p>ILLUSTRATION </p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-xs-12">
             <div class="portfolio__item"> <img src="./img/Layer-49.png" alt=""/>
               <h3>COCORILLO</h3>
               <p>PRINT DESIGN</p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-xs-12">
             <div class="portfolio__item"><img src="./img/Layer-50.png" alt=""/>
               <h3>Network Like a Pro</h3>
               <p>WEB DESIGN</p>
@@ -106,19 +118,19 @@
           </div>
         </div>
         <div class="row">       
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-xs-12">
             <div class="portfolio__item"><img src="./img/Layer-52.png" alt=""/>
               <h3>COVER</h3>
               <p>PRINT DESIGN </p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-xs-12">
             <div class="portfolio__item"> <img src="./img/Layer-53.png" alt=""/>
               <h3>SETH NICKERSON</h3>
               <p>PRINT DESIGN </p>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-xs-12">
             <div class="portfolio__item"><img src="./img/Layer-54.png" alt=""/>
               <h3>CREATE ONE</h3>
               <p>WEB DESIGN </p>
@@ -134,7 +146,7 @@
           <p>Tutorials, features, new release and more</p>
         </div>
         <div class="row">
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-xs-12">
             <div class="latest__item">
               <div class="squareangle">
                 <h1>“</h1>
@@ -146,7 +158,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-xs-12">
             <div class="latest__item">
               <div class="swiper-container">
                 <div class="swiper-wrapper">
@@ -163,7 +175,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4">
+          <div class="col-lg-4 col-xs-12">
             <div class="latest__item">
               <div class="latest__player" id="player"></div>
               <div class="latest__text">   
@@ -178,7 +190,10 @@
     <div class="sponsors">
       <div class="container">
         <div class="row">
-          <div class="sponsors__items">  <a class="sponsor__logo" href="javascript:void(0)"><img src="./img/tak.png" alt=""/></a><a class="sponsor__logo" href="javascript:void(0)"><img src="./img/databerry.png" alt=""/></a><a class="sponsor__logo" href="javascript:void(0)"><img src="./img/orange.png" alt=""/></a><a class="sponsor__logo" href="javascript:void(0)"><img src="./img/ata.png" alt=""/></a></div>
+          <div class="col-lg-3 col-xs-12">  <a class="sponsor__logo" href="javascript:void(0)"><img class="logo__img" src="./img/tak.png" alt=""/></a></div>
+          <div class="col-lg-3 col-xs-12"><a class="sponsor__logo" href="javascript:void(0)"><img class="logo__img" src="./img/databerry.png" alt=""/></a></div>
+          <div class="col-lg-3 col-xs-12"><a class="sponsor__logo" href="javascript:void(0)"><img class="logo__img" src="./img/orange.png" alt=""/></a></div>
+          <div class="col-lg-3 col-xs-12"><a class="sponsor__logo" href="javascript:void(0)"><img class="logo__img" src="./img/ata.png" alt=""/></a></div>
         </div>
       </div>
     </div>
@@ -236,9 +251,8 @@
             <div class="footer__column">
               <h2 class="footer__heading">Contact Us</h2>
               <div class="footer__contacts">
-                <div class="contacts__item"><i class="fas fa-map-marker-alt contacts__logo"></i>
-                  <p class="contacts__text">92 Albacore Crescent Breadalbane NSW 2581     </p>
-                </div>
+                <div class="contacts__item"><i class="fas fa-map-marker-alt contacts__logo"></i><a class="contacts__text" href="https://www.google.com/maps/search/92+Albacore+Crescent+Breadalbane+NSW+2581/@-34.8104908,149.3106527,11.34z">
+                    <p>92 Albacore Crescent Breadalbane NSW 2581     </p></a></div>
                 <div class="contacts__item"><i class="fas fa-mobile contacts__logo"></i><a class="contacts__text" href="tel:+380508687899"> 
                     <p>+380508687899</p></a></div>
                 <div class="contacts__item"><i class="far fa-envelope contacts__logo"></i><a class="contacts__text" href="mailto:emailme@velox.com">
@@ -249,11 +263,11 @@
         </div>
       </div>
     </div>
-    <div class="copyright">
+    <div class="copyright" id="scrolltop">
       <div class="container">
         <div class="row">
           <div class="col d-flex justify-content-between">
-            <p>Copyright 2014 - Velox. All Right Reserved</p><a href="#top">
+            <p class="copyright__text">Copyright 2014 - Velox. All Right Reserved</p><a href="#top">
               <p>Back To Top ^</p></a>
           </div>
         </div>
@@ -263,7 +277,10 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.esm.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.esm.bundle.js"></script>
 <script src="swiper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="player.js"></script>
+    <script src="slider.js"></script>
+    <script src="bootstrap.bundle.js"></script>
   </body>
 </html>

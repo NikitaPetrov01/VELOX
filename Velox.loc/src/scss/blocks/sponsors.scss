@@ -1,12 +1,18 @@
 .sponsors{
     display: flex;
-    height: 205px;
+    min-height: 205px;
     align-items: center;
 }
 .sponsor__logo{
-    padding-right: 85px;
+    // padding-right: 85px;
     margin: 0 auto;
+    width: 100%;
+    margin: 15px;
 }
+.logo__img{
+    margin: 15px;
+}
+
 .sponsors__items{
     margin: 0 15% 0 15%; 
     display: flex;

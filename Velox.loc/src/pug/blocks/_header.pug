@@ -3,10 +3,14 @@
 		.row
 			.col.d-flex.justify-content-between
 				.header__contacts
-					a.header__link(href='mailto:emailme@velox.com')
-						i.far.fa-envelope.header__icon emailme@velox.com				
-					a.header__link(href='tel:+380508687899')
-						i.fas.fa-mobile-alt.header__icon +380508687899			
+					.contacts__item
+							i.fas.fa-mobile.contacts__logo
+							a.contacts__text(href="tel:+380508687899") 
+								p +380508687899
+					.contacts__item
+						i.far.fa-envelope.contacts__logo
+						a.contacts__text(href="mailto:emailme@velox.com")
+							p emailme@velox.com		
 				.social
 					a(href='http://facebook.com')
 						i.fab.fa-facebook-f.social__icon
